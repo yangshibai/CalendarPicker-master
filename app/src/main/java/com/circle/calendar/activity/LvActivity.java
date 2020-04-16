@@ -1,29 +1,21 @@
-# CalendarPicker
-Calendar日历控件（;CalendarDateView;StickyCalendar;渐变效果；带有开始时间和结束时间，且最晚到当月，当月当日以后的时间置灰不可点击）
+package com.circle.calendar.activity;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+
+import com.circle.calendar.R;
+import com.circle.calendar.view.lvcalendar.DatePickerController;
+import com.circle.calendar.view.lvcalendar.DayPickerView;
+import com.circle.calendar.view.lvcalendar.SimpleMonthAdapter;
 
 
-此控件也是基于别人的项目上修改，因为之前的不符合我的需求，所以在此基础上修改，同时也修改原有项目存在的问题，在此先附上原项目链接，并对作者表示感谢：
-https://github.com/CristianoLi/FSCalendar
- 
-修改之后效果：
-
-  ![含有开始和结束时间](https://github.com/yangshibai/CalendarPicker-master/Screenrecorder-2020-04-16.gif)
-
-代码修改：
-```
-    <com.lf.li.fscalendar.view.lvcalendar.DayPickerView 
-        xmlns:calendar="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/calendar_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/white"
-        calendar:isFold="true" />
-```
-这里附上使用方式
-
-```
 public class LvActivity extends AppCompatActivity implements DatePickerController {
     private DayPickerView calendarView;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,7 +57,3 @@ public class LvActivity extends AppCompatActivity implements DatePickerControlle
         Log.e("data__", selectedDays.getFirst() + "@@@" + selectedDays.getLast());  //月份记得+1
     }
 }
-```
-
-
-
