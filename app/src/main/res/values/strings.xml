@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FSCalendar</string>
+    <string name="app_name">CalendarPicker</string>
 
     <string name="sans_serif" translatable="false">sans-serif</string>
 </resources>
