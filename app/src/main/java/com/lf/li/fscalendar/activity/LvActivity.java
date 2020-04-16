@@ -36,7 +36,7 @@ public class LvActivity extends AppCompatActivity implements DatePickerControlle
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.main_today:
-//                calendarView.scrollToToday();
+                calendarView.scrollToToday();
                 break;
         }
         return true;

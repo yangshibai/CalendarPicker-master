@@ -22,8 +22,6 @@
         <attr name="calendarHeight" format="dimension" />
         <attr name="enablePreviousDay" format="boolean" />
         <attr name="currentDaySelected" format="boolean" />
-        <attr name="drawRoundRect" format="boolean" />
-        <attr name="isStartEnd" format="boolean"/>
         <attr name="isFold" format="boolean"/>
         <attr name="firstMonth" format="enum">
             <enum name="january" value="0" />

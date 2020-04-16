@@ -57,7 +57,7 @@ public class DayPickerView extends RecyclerView {
     }
 
     public void scrollToToday() {
-        smoothScrollToPosition(12 + Calendar.getInstance().get(Calendar.MONTH));
+        smoothScrollToPosition(24 + Calendar.getInstance().get(Calendar.MONTH));
         adjustHeight();
     }
 
