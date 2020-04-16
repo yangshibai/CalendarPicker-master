@@ -7,7 +7,7 @@ https://github.com/CristianoLi/FSCalendar
  
 修改之后效果：
 
-  ![含有开始和结束时间](https://github.com/yangshibai/CalendarPicker-master/Screenrecorder-2020-04-16.gif)
+  ![含有开始和结束时间](https://github.com/yangshibai/CalendarPicker-master/blob/master/Screenrecorder-2020-04-16.gif)
 
 代码修改：
 ```
